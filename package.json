@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "## How to use.",
   "main": "index.js",
+  "bin": {
+    "asceline": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/AscelineHogge/npx-card/issues"
   },
-  "homepage": "https://github.com/AscelineHogge/npx-card#readme"
+  "homepage": "https://github.com/AscelineHogge/npx-card#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "boxen": "^5.0.1",
+    "chalk": "^4.1.1"
+  }
 }
