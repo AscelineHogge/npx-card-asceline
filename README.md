@@ -3,6 +3,6 @@
 ## How to use.
 
 Via npx :
-[Coming Soon]
+npx asceline
 
 Quite simply!
