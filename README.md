@@ -5,6 +5,6 @@ I like simplicity.
 ## How to use.
 
 Via npx :
-npx asceline
+> npx asceline
 
 Quite simply!
