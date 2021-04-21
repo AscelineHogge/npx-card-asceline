@@ -5,10 +5,14 @@ const boxen = require("boxen");
 
 const data = {
     name: chalk.white.bold("Asceline Hogge"),
+    work: chalk.white("As a beginner coder at BeCode,"),
+    work2: chalk.white("I owe my salvation to my wonderful group! "),
     npm: chalk.green("https://npmjs.com/") + chalk.red("ascelinehogge"),
     github: chalk.green("https://github.com/") + chalk.blue("AscelineHogge"),
     linkedin: chalk.green("https://linkedin.com/in/") + chalk.yellowBright("asceline-hogge"),
     npx: chalk.red("npx") + " " + chalk.white("asceline"),
+    labelWork: chalk.white.bold(" "),
+    labelWork2: chalk.white.bold(" "),
     labelNpm: chalk.white.bold("        npm:"),
     labelGitHub: chalk.white.bold("     GitHub:"),
     labelLinkedIn: chalk.white.bold("   LinkedIn:"),
@@ -40,11 +44,12 @@ console.log(
                                 left: 8,
 
                             }
-
                         }
                     )
                 ),
-
+                EMPTYLINE,
+                `${data.labelWork} ${data.work}`,
+                `${data.labelWork2} ${data.work2}`,
                 EMPTYLINE,
                 `${data.labelNpm} ${data.npm}`,
                 `${data.labelGitHub} ${data.github}`,
